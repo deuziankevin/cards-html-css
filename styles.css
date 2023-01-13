@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 400px;
+    margin: 16px;
+}
+
+.mediaCard {
+    background: url("https://miro.medium.com/max/1400/0*Y46WvFclo_XaCe5e.png") center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.mediaCard2 {
+    background: url("https://64.media.tumblr.com/7722f5fef8b0da281d39ab5de6fb353f/55b5aa69c9afa868-f8/s1280x1920/595a0b974c9e29ec7374525dc06ca2ab9147a70d.jpg") center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.title {
+    color: #2b3d59;
+}
+
+.secondText {
+    color: #828fa1;
+}
+
+.bottomText {
+    color: #445b73;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: purple;
+}
